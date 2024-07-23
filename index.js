@@ -96,8 +96,8 @@ function searchSpecificType(type) {
 }
 
 function search(query, fileType = '', start = 1, numRequests = 4) {
-    const apiKey = 'AIzaSyBF9r7pqWuHD1iyYv1KvdE3lkUKC2mXorM'; // Replace with your API key
-    const searchEngineId = 'f1f04c69f39f84d55'; // Replace with your Custom Search Engine ID
+    const apiKey = 'AIzaSy.....9r7pq.......'; // Replace with your API key
+    const searchEngineId = 'f1f04c.......'; // Replace with your Custom Search Engine ID
     let searchType = '';
     if (fileType === 'images') {
         searchType = '&searchType=image';
