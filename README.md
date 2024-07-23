@@ -10,10 +10,20 @@ The core idea of this project is to create a web-based application that allows u
 - **Submit Button:** Submits the search query for processing.
 ![image](https://github.com/user-attachments/assets/91fadde3-c64e-45da-becf-66d682a44e91)
 
-Definition Box:
+## Definition Box:
 
-Text Display:
-Displays a text description of the search query fetched from an external API (Wikipedia summary).
+-**Text Display :** Displays a text description of the search query fetched from an external API (Wikipedia summary).
+![image](https://github.com/user-attachments/assets/d465e366-4f4d-4921-b5dc-5eeb60afa158)
+
+## Search Results:
+
+- **Reference Links:** A list of search results is displayed with clickable links.
+
+
+- **Image Results:** A grid layout displays image search results.
+- **PDF results:** A list of search results is displayed with pdfs.
+- **PPT RESULTS:**  A list of search results is displayed with ppts.
+  
 
 
 ## Note:
