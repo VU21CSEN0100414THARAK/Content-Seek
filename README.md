@@ -17,12 +17,15 @@ The core idea of this project is to create a web-based application that allows u
 
 ## Search Results:
 
-- **Reference Links:** A list of search results is displayed with clickable links.
+<h3> Reference Links : A list of search results is displayed with clickable links.</h3>
 
+    ![image](https://github.com/user-attachments/assets/df071a85-a7e4-49d6-907a-56b1428f36bc)
 
-- **Image Results:** A grid layout displays image search results.
-- **PDF results:** A list of search results is displayed with pdfs.
-- **PPT RESULTS:**  A list of search results is displayed with ppts.
+<h3>Image Results: A grid layout displays image search results.</h3>
+
+<h3>PDF results:A list of search results is displayed with pdfs.</h3>
+
+<h3>PPT RESULTS: A list of search results is displayed with ppts.</h3>
   
 
 
