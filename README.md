@@ -10,6 +10,12 @@ The core idea of this project is to create a web-based application that allows u
 - **Submit Button:** Submits the search query for processing.
 ![image](https://github.com/user-attachments/assets/91fadde3-c64e-45da-becf-66d682a44e91)
 
+Definition Box:
+
+Text Display:
+Displays a text description of the search query fetched from an external API (Wikipedia summary).
+
+
 ## Note:
 
 <p>Make sure to update with your API key and search engine ID in the JavaScript code to use the application.</p>
