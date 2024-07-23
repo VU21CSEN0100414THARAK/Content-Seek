@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reference Links Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header tilt-prism-unique">
+        <div class="ml5">
+             <!-- Search icon -->
+            <span class="text-wrapper">
+                <span class="line line1"></span>
+                <span class="letters letters-left"><i class="fas fa-search"></i>Content</span>
+                <!-- <span class="letters ampersand">&amp;</span> -->
+                <span class="letters letters-right">Seek<i class="fas fa-globe"></i></span>
+                <span class="line line2"></span>
+            </span>
+             <!-- Earth rotating icon -->
+        </div>
+    </div>
+
+    <div class="marquee-container">
+        <div class="marquee">
+            This project supports targeted searches for text, PPTs, PDFs, and images, with features for voice search and speech synthesis.
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="left-container">
+            <form id="query-form">
+                <label for="query">Enter text:</label>
+                <input type="search" id="query" name="query" required>
+                <div class="mic-container">
+                    <button class="mic-button" type="button" onclick="startVoiceRecognition()"><i class="fas fa-microphone"></i></button>
+                    <button class="voice-control-button" type="button" onclick="toggleVoiceOutput()"><i class="fas fa-volume-up"></i></button>
+                </div>
+                <button type="submit"><i class="fas fa-link"></i> Get Links</button>
+
+                <div class="button-container">
+                    <button type="button" class="ppt" onclick="searchSpecificType('ppt')"><i class="fas fa-file-powerpoint"></i> PPT</button>
+                    <button type="button" class="pdf" onclick="searchSpecificType('pdf')"><i class="fas fa-file-pdf"></i> PDF</button>
+                    <button type="button" class="images" onclick="searchSpecificType('images')"><i class="fas fa-images"></i> Images</button>
+                </div>
+            </form>
+            <div class="definition-box" id="definition-box">
+                <!-- Definition will be displayed here -->
+            </div>
+        </div>
+        <div class="right-container">
+            <h2><i class="fas fa-book"></i> Reference Links:</h2>
+            <ul id="links-list"></ul>
+            <div class="image-container" id="image-container"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
