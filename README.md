@@ -3,6 +3,9 @@
 The core idea of this project is to create a web-based application that allows users to perform targeted searches for various types of content (text, PPTs, PDFs, and images) using both text input and voice commands. 
 The application also includes features for speech synthesis, enhancing accessibility by providing voice feedback for search results.
 
+<h1>Click below link for demo:</h1>
+<h2>https://vu21csen0100414tharak.github.io/Content-Seek/</h2>
+
 ## Features
 
 - **Text Input for Search:** An input field allows users to enter their search queries.
